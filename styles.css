@@ -216,6 +216,39 @@ body {
     border-radius: 8px;
 }
 
+/* Branding Layout */
+.branding-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+    align-items: start;
+    margin-top: 2rem;
+}
+
+.branding-text {
+    position: sticky;
+    top: 120px;
+}
+
+.branding-text p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.8;
+}
+
+.branding-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.branding-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
 /* Contact Page */
 .contact-page {
     min-height: 80vh;
@@ -296,5 +329,18 @@ footer {
     
     .project-container {
         padding: 0 1.5rem;
+    }
+    
+    .branding-layout {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .branding-text {
+        position: static;
+    }
+    
+    .branding-images {
+        grid-template-columns: 1fr;
     }
 }
