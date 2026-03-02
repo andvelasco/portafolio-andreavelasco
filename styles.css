@@ -65,6 +65,10 @@ body {
     position: relative;
 }
 
+.dropbtn {
+    cursor: pointer;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -74,15 +78,17 @@ body {
     min-width: 220px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     border-radius: 4px;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+    z-index: 1001;
 }
 
 .dropdown-content a {
-    color: #6B8E6F;
+    color: #6B8E6F !important;
     padding: 1rem 1.5rem;
     display: block;
     font-size: 0.9rem;
     border-bottom: 1px solid #f0f0f0;
+    text-decoration: none;
 }
 
 .dropdown-content a:last-child {
@@ -91,11 +97,15 @@ body {
 
 .dropdown-content a:hover {
     background: #f8f8f8;
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.lang-switch {
+    cursor: pointer;
 }
 
 .lang-switch {
