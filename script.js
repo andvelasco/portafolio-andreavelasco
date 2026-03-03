@@ -23,7 +23,7 @@ const translations = {
         contactoDesc: '¿Tienes un proyecto en mente? Me encantaría colaborar contigo.',
         heroTitle: 'Diseño & Creatividad',
         heroDesc: 'Creando experiencias visuales únicas',
-        footer: '© 2025 Andrea Velasco'
+        footer: '© 2026 Andrea Velasco'
     },
     en: {
         inicio: 'HOME',
@@ -48,7 +48,7 @@ const translations = {
         contactoDesc: 'Do you have a project in mind? I would love to collaborate with you.',
         heroTitle: 'Design & Creativity',
         heroDesc: 'Creating unique visual experiences',
-        footer: '© 2025 Andrea Velasco'
+        footer: '© 2026 Andrea Velasco'
     }
 };
 
